@@ -1,0 +1,324 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css\normalize.css">
+    <link rel="stylesheet" type="text/css" href="css\grid.css">
+    <link rel="stylesheet" type="text/css" href="css\ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+    <link rel="stylesheet" type="text/css" href="css\queries.css">
+
+    
+    <title>Bethany Pie</title>
+</head>
+<body>
+
+    <!-- Hompage/Header -->
+
+    <header>
+        <nav>
+            <div class="row">
+                <img src="bethpieimg\bethanylogo.png" alt="Bethany's Pie logo" class="logo">
+                <img src="bethpieimg\bethanylogo.png" alt="Bethany's Pie logo" class="logo-black">
+                <ul class="main-nav js--main-nav">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about-us">Blog</a></li>
+                    <li><a href="#product">Product</a></li>
+                    <li><a href="#contact-form">Contact on</a></li>
+                </ul>
+                <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+            </div>
+        </nav>
+        <div class="hero-text-box">
+            <h1>Welcome to Bethany's Pie.<br>It not just pie but Bethany’s pie.</h1>
+            <a class="btn btn-full js--scroll-to-plans" href="#product">I'm hungry</a>
+            <a class="btn btn-ghost js--scroll-to-start" href="#about-us">Show me more</a>
+        </div>
+    </header>
+    
+<!-- About Us-->
+
+    <section class="section-features js--section-features" id="about-us">
+        <div class="row">
+            <h2>Our History</h2>
+        </div>
+        <div class="row js--wp-1">    
+        <div class="row">
+            <div class="long-copy">
+                <i class="ion-ios-infinite-outline icon-big"></i>
+                <h3><b>Up to 365 days/year</b></h3>
+                <p>
+                    For many year Bethany has been baking the most delicous pies at her home.
+                    In 2013, we opened our first store in Brussel (Belgium) in a cosy little street near the Grand Market.
+                    People from all over the world fell in love with the soft cakes, heavenly cheese cakes, spicy apple pies...
+                    <i>The store became a success in no time.</i>
+                </p>
+            </div>
+            <div class="long-copy">
+                <i class="ion-ios-stopwatch-outline icon-big"></i>
+                <h3><b>Your doorstep in 20 minutes</b></h3>
+                <p>
+                    In 2015, no less than 100 pies were sold every day and Bethany's Pie Shop moved into a larger building.
+                    After receiving many requests, it became clear that our next step was making it possible to order pies from the comfort of your own home and from anywhere in the world.
+                    You are now looking at the result of this: our very own webstore, making it possible to order Bethany's delicious pies whenever you feel like it!
+                </p>
+            </div>
+        </div>   
+    </section>
+
+
+    <!-- MEAL Gallery -->
+
+
+    <section class="section-meals" id="product">
+        <h2>OUR MEAL</h2>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('big-piecake')"> Big Pie & Cake</button>
+  <button class="btn" onclick="filterSelection('small-pie')"> Small Pie</button>
+  <button class="btn" onclick="filterSelection('small-cake')"> Small Cake</button>
+</div>
+
+ <!-- Bigcakepie -->
+
+<div class="row">
+    <div class="column big-piecake">
+        <div class="card">
+            <img src="bethpieimg\product\applepie.jpg" alt="Applepie">
+            <h1>Apple<br>Pie</h1>
+            <p class="price">$14.99</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+    </div>
+    <div class="column big-piecake">
+        <div class="card">
+            <img src="bethpieimg\product\cherrypie.jpg" alt="CherryPie">
+            <h1>Cherry<br>Pie</h1>
+            <p class="price">$14.99</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+    </div>
+    <div class="column big-piecake">
+        <div class="card">
+            <img src="bethpieimg\product\cheesecake.jpg" alt="CheeseCake">
+            <h1>Cheese<br>Cake</h1>
+            <p class="price">$14.99</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+    </div>
+
+ <!--Small pie  -->
+
+    <div class="column small-pie">
+        <div class="card">
+            <img src="bethpieimg\product\applepiesmall.jpg" alt="applepie">
+            <h1>Apple<br>Pie</h1>
+            <p class="price">$7.99</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+    </div>
+    <div class="column small-pie">
+        <div class="card">
+            <img src="bethpieimg\product\cherrypiesmall.jpg" alt="CherryPie">
+            <h1>Cherry<br>Pie</h1>
+            <p class="price">$7.99</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+    </div>    
+    <div class="column small-pie">
+        <div class="card">
+            <img src="bethpieimg\product\christmasapplepiesmall.jpg" alt="christmasapplepie">
+            <h1>Christmas<br>applepie</h1>
+            <p class="price">$7.99</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+    </div>
+    <div class="column small-pie">
+        <div class="card">
+            <img src="bethpieimg\product\cranberrypiesmall.jpg" alt="cranberrypie">
+            <h1>Cranberry<br>pie</h1>
+            <p class="price">$7.99</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+    </div>
+    <div class="column small-pie">
+        <div class="card">
+            <img src="bethpieimg\product\peachpiesmall.jpg" alt="peachpie">
+            <h1>peach<br>pie</h1>
+            <p class="price">$7.99</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+    </div>
+    <div class="column small-pie">
+        <div class="card">
+            <img src="bethpieimg\product\pumpkinpiesmall.jpg" alt="pumpkinpie">
+            <h1>pumpkin<br>pie</h1>
+            <p class="price">$7.99</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+    </div>
+    <div class="column small-pie">
+        <div class="card">
+            <img src="bethpieimg\product\rhubarbpiesmall.jpg" alt="rhubarbpie">
+            <h1>rhubarb<br>pie</h1>
+            <p class="price">$7.99</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+    </div>
+    <div class="column small-pie">
+        <div class="card">
+            <img src="bethpieimg\product\strawberrypiesmall.jpg" alt="strawberrypie">
+            <h1>strawberry<br>pie</h1>
+            <p class="price">$7.99</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+    </div>
+
+
+     <!-- Small cake -->
+
+    <div class="column small-cake">
+        <div class="card">
+            <img src="bethpieimg\product\blueberrycheesecakesmall.jpg" alt="blueberrycheesecake">
+            <h1>blueberry<br>cheesecake</h1>
+            <p class="price">$9.99</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+    </div>
+    <div class="column small-cake">
+        <div class="card">
+            <img src="bethpieimg\product\strawberrycheesecakesmall.jpg" alt="strawberrycheesecake">
+            <h1>strawberry<br>cheesecake</h1>
+            <p class="price">$9.99</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+    </div>
+    <div class="column small-cake">
+        <div class="card">
+            <img src="bethpieimg\product\cheesecakesmall.jpg" alt="CherryCake">
+            <h1>Cherry<br>Cake</h1>
+            <p class="price">$9.99</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Contact form -->
+
+    <section class="section-form" id="contact-form">
+        <div class="row">
+            <h2>We're happy to hear from you</h2>
+        </div>
+        <div class="row">
+            <form method="post" action="#" class="contact-form">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="email" placeholder="Your email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="find-us">How did you find us?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select name="find-us" id="find-us">
+                            <option value="friends" selected>Friends</option>
+                            <option value="search">Search engine</option>
+                            <option value="ad">Advertisement</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Newsletter?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="checkbox" name="news" id="news" checked> Yes, please
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>Drop us a line</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="message" placeholder="Your message"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label>&nbsp;</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="submit" value="Send it!">
+                    </div>
+                </div>
+                
+            </form>
+            
+        </div>
+    </section>
+    
+    <!-- Footer -->
+
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">iOS App</a></li>
+                    <li><a href="#">Android App</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p>
+                Copyright &copy; 2021 by Made. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- javascript response for meal responsive button -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="js\jquery.waypoints.min.js"></script>
+    <script src="js\meal-query.js"></script>
+    <script src="js\script.js"></script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  
+        ga('create', 'UA-61026110-2', 'auto');
+        ga('send', 'pageview');
+  
+      </script>
+</body>
+</html>
